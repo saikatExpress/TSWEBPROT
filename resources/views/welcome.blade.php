@@ -78,11 +78,16 @@
                 <div class="col-lg-6">
                     <h1 class="hero-title">Hi, I'm <span>Shakawat H. Saikat</span></h1>
                     <h2 class="hero-subtitle">Full Stack Web Developer</h2>
-                    <p class="hero-text">I build scalable web applications with PHP, Python, JavaScript & modern
-                        frameworks.</p>
+                    <p class="hero-text">
+                        I build scalable web applications with PHP, Python, JavaScript & modern frameworks.
+                    </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary me-2">View My Work</a>
-                        <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+                        <a href="{{ route('all.projects') }}" class="btn btn-primary me-2">
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light">
+                            Hire Me
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
